@@ -6,8 +6,8 @@ project (OpenCamera)
 #set(Qt5Core_DIR "D:/Qt/Qt5.9.6/5.9.6/msvc2015/lib/cmake/Qt5Core")
 #添加QT库
 #find_package(Qt5Core)
-#设定opencv目录
-set(Opencv_DIR "D:/opencv2.4.13.6/build")
+#设定opencv目录，添加环境变量
+#set(Opencv_DIR "D:/opencv2.4.13.6/build")
 #添加opencv库
 find_package(Opencv REQUIRED)
 # 添加包含目录
